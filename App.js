@@ -22,9 +22,6 @@ import VideoPlayer from "./src/screens/VideoPlayer";
 import Explore from "./src/screens/Explore";
 import Suscribe from "./src/screens/Suscribe";
 
-//https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=songs&type=video&key=AIzaSyAhZgugYo5qJXnXjG8uoaW7muOWPjEqxHg
-
-//AIzaSyAhZgugYo5qJXnXjG8uoaW7muOWPjEqxHg
 
 const customDarkTheam = {
   ...DarkTheme,
