@@ -22,11 +22,11 @@ const SearchScreen = ({ navigation }) => {
   });
 
   const [loading, setLoading] = useState(false);
-
+  const API_KEY = "";
   const fetchdata = () => {
     setLoading(true);
     fetch(
-      `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=15&q=${value}&type=video&key=AIzaSyAhZgugYo5qJXnXjG8uoaW7muOWPjEqxHg`
+      `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=15&q=${value}&type=video&key=${API_KEY}`
     )
       .then((res) => res.json())
       .then((data) => {
