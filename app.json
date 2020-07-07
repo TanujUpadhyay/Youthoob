@@ -1,12 +1,15 @@
 {
   "expo": {
-    "name": "Youtube",
-    "slug": "Youtube",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "name": "Youthoob",
+    "slug": "Youthoob",
+    "platforms": ["ios", "android", "web"],
+    "android": {
+      "package": "com.alpghacode.Youthoob",
+      "versionCode": 1
+    },
+    "ios": {
+      "bundleIdentifier": "com.alpghacode.Youthoob"
+    },
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,11 +21,6 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    }
+    "assetBundlePatterns": ["**/*"]
   }
 }
