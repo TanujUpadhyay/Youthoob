@@ -1,9 +1,0 @@
-Youtube keys for expo
-Configuring credentials for upadhyaytanuj123 in project Youthoob
-Saving Keystore to D:\ReactNativ\Youtube\Youthoob.jks
-Keystore credentials
-  Keystore password: 9cde0869952041e18445e8947e61e946
-  Key alias:         QHVwYWRoeWF5dGFudWoxMjMvWW91dGhvb2I=
-  Key password:      52fec3928d1a44ae90aed05a82a46a03
-
-  Path to Keystore:  D:\ReactNativ\Youtube\Youthoob.jks
